@@ -1,0 +1,46 @@
+.adv-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+
+    @media (max-width: $mobile) {
+        padding: 20px 0;
+    }
+}
+
+.adv-form__row {
+    width: 100%;
+    margin-bottom: 20px;
+
+    input {
+        width: 100%;
+        outline: none;
+        appearance: none;
+        border: none;
+
+        &:not([type=file]) {
+            border-radius: 12px;
+            padding: 12px 25px;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.adv-form__progress {
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 12px;
+    height: 15px;
+
+    &::-webkit-progress-bar {
+        background-color: white;
+        border-radius: 12px;
+    }
+
+    &::-webkit-progress-value {
+        background-color: $color-main;
+        border-radius: 12px;
+        transition: ease-in-out 0.5s;
+    }
+}

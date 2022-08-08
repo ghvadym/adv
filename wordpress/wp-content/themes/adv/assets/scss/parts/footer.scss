@@ -1,0 +1,18 @@
+.footer {
+    background-color: $color-bg;
+    padding: 50px 20px;
+}
+
+.footer__nav {
+    ul {
+        & > li {
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+
+            a {
+                font-size: 2rem;
+            }
+        }
+    }
+}
