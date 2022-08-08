@@ -12,8 +12,7 @@ Thumbs.db
 wp-content/plugins/hello.php
 wp-content/plugins/akismet/
 *-lock.json
-~*
-.*
+
 !.htaccess
 !.gitignore
 
@@ -35,8 +34,6 @@ node_modules/
 *.zip
 *.txt
 *.log
-*.sql
-*.sqlite
 
 # ignore compiled files
 *.com
